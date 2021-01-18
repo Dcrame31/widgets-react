@@ -1,6 +1,7 @@
 import React from 'react';
 import Accordion from './Accordion';
 import Search from './Search';
+import Dropdown from './Dropdown';
 
 // class App extends React.Component {
 //     render() {
@@ -33,7 +34,8 @@ export default () => {
     return (
         <div className="ui container">
             {/* <Accordion items={items} /> */}
-            <Search />
+            {/* <Search /> */}
+            <Dropdown />
         </div>
     )
 };
